@@ -19,4 +19,4 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 -- Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
 #### Mobile First
-<img width="100" src="./assets/img/mobile.png" >
+<img width="250" src="./assets/img/mobile.png" >
