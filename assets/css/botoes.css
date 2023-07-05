@@ -19,7 +19,7 @@
 	font-weight: 400;
 }
 
-.verConsoles, .enviarMensagem {
+.verConsoles {
 	background: var(--azul);
 	color: var(--branco);
 	font-size: 14px;

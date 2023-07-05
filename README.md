@@ -16,7 +16,9 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 -- Um rodapé com formulário para contato e outras informações relevantes.
 
--- Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
+-- Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja. É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
-#### Mobile First
+### Mobile
 <img width="250" src="./assets/img/mobile.png" >
+
+### Tablet

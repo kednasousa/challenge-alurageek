@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AluraGeek</title>
+	<!-- ESTILOS MOBILE -->
 	<link rel="stylesheet" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="./assets/css/variaveis.css">
 	<link rel="stylesheet" href="./assets/css/botoes.css">
@@ -12,6 +13,11 @@
 	<link rel="stylesheet" href="./assets/css/mobile/banner/banner.css">
 	<link rel="stylesheet" href="./assets/css/mobile/produtos/produtos.css">
 	<link rel="stylesheet" href="./assets/css/links.css">
+
+	<!-- ESTILOS TABLET -->
+	<link rel="stylesheet" href="./assets/css/tablet/cabecalho/cabecalho.css">
+	<link rel="stylesheet" href="./assets/css/rodape/rodapeTablet.css">
+	<!-- ESTILOS DESKTOP -->
 
 	<link rel="stylesheet" href="./assets/css/rodape/rodape.css">
 </head>
@@ -199,25 +205,19 @@
 					</div>
 				</div>
 
-
 				<form class="formulario" action="/enviar-mensagem" method="POST">
 					<h2 class="formulario__titulo">Fale conosco</h2>
-					<label class="placeholder" for="nome" data-nome>Nome:</label>
-					<input class="input__nome" type="text" id="nome" name="nome" required>
+					<input placeholder="Nome" class="input__nome" type="text" id="nome" name="nome" required>
 
-					<label class="placeholder" for="mensagem" data-mensagem>Mensagem:</label>
-					<textarea class="mensagem" id="mensagem" name="mensagem" rows="4" autocomplete="off" required></textarea>
+					<textarea placeholder="Mensagem" class="mensagem" id="mensagem" name="mensagem" rows="4" autocomplete="off" required></textarea>
 
-					<button class="botao enviarMensagem" type="submit">Enviar Mensagem</button>
+					<button class="enviarMensagem" type="submit">Enviar Mensagem</button>
 				</form>
-
-
 			</div>
-
 		</section>
-			<footer class="rodape__footer">Desenvolvido por Kedna Sousa
-				<span>2023</span>
-			</footer>
+		<footer class="rodape__footer">Desenvolvido por Kedna Sousa
+			<span>2023</span>
+		</footer>
 	</main>
 </body>
 
