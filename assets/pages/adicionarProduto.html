@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adicionar produto</title>
+</head>
+
+<body>
+	<header class="cabecalho">
+		<div class="cabecalho__conteudo">
+			<div class="cabecalho__logo">
+				<img class="cabecalho__imagem" src="./assets/img/joystick.svg" alt="Logo da AluraGeek">
+				<h2 class="logo">AluraGeek</h2>
+			</div>
+			<input class="cabecalho__pesquisa" type="text" placeholder="O que deseja encontrar?">
+		</div>
+		<button class="botao login">Menu administrador</button>
+	</header>
+
+	<main>
+		<section class="adicionarProduto">
+			<form action="/adicionar-produto" method="POST">
+				<label for="url">URL:</label>
+				<input type="url" id="url" name="url" required>
+
+				<label for="categoria">Categoria:</label>
+				<select id="categoria" name="categoria" required>
+					<option value="star-wars">Star Wars</option>
+					<option value="consoles">Consoles</option>
+					<option value="diversos">Diversos</option>
+					<option value="outros">Outros</option>
+				</select>
+
+				<label for="nome-produto">Nome do Produto:</label>
+				<input type="text" id="nome-produto" name="nome-produto" required>
+
+				<label for="preco">Preço:</label>
+				<input type="number" id="preco" name="preco" step="0.01" required>
+
+				<label for="descricao">Descrição do Produto:</label>
+				<textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+				<button type="submit">Adicionar Produto</button>
+			</form>
+		</section>
+
+		<section class="rodape">
+			<section class="footer">
+				<div class="footer__conteudo">
+					<div class="footer__logotipo">
+						<img src="./assets/img/joystick.svg" alt="Imagem joystick" class="footer__imagem">
+						<h2 class="logo">AluraGeek</h2>
+					</div>
+
+					<div class="footer__links">
+						<a href="#quemSomosNos">Quem somos nós</a>
+						<a href="#">Política de privacidade</a>
+						<a href="#">Programa fidelidade</a>
+						<a href="#">Nossas lojas</a>
+						<a href="#">Quero ser franqueado</a>
+						<a href="#">Anuncie aqui</a>
+					</div>
+
+					<form class="formulario" action="/enviar-mensagem" method="POST">
+						<label for="nome">Nome:</label>
+						<input type="text" id="nome" name="nome" required>
+
+						<label for="mensagem">Mensagem:</label>
+						<textarea class="mensagem" id="mensagem" name="mensagem" rows="4" required></textarea>
+
+						<button class="botao" type="submit">Enviar Mensagem</button>
+					</form>
+				</div>
+			</section>
+			<footer class="rodape__footer">Desenvolvido por Kedna Sousa<br />2023</footer>
+		</section>
+	</main>
+
+</body>
+
+</html>
