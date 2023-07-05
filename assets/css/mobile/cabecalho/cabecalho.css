@@ -1,0 +1,62 @@
+.cabecalho {
+	background-color: var(--branco);
+	display: flex;
+	justify-content: center;
+	padding: 16px;
+	width: 100%;
+}
+
+.cabecalho__conteudo {
+	align-items: center;
+	display: flex;
+	gap: 25px;
+}
+
+.cabecalho__logo {
+	align-items: center;
+	display: flex;
+	gap: .1rem;
+	order: 1;
+}
+
+.cabecalho__imagem {
+	width: 28px;
+}
+
+.logo {
+	font-size: 100%;
+	background: -webkit-linear-gradient(to right, var(--azul) 50%, var(--cinza) 50%);
+	background: -moz-linear-gradient(to right, var(--azul) 50%, var(--cinza) 50%);
+	background: -ms-linear-gradient(to right, var(--azul) 50%, var(--cinza) 50%);
+	background: linear-gradient(to right, var(--azul) 50%, var(--cinza) 50%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+
+.botao.login {
+	order: 2;
+	padding: 12px 16px;
+	font-weight: 600;
+	font-size: 14px;
+	width: 133px;
+	height: 40px;
+}
+
+.cabecalho__pesquisa {
+	background: url('../../../img/lupa.svg') no-repeat right center;
+	background-position: 50%;
+	border: none;
+	border-radius: 20px;
+	filter: brightness(0.5);
+	order: 3;
+	padding: 0;
+	width: 24px;
+}
+
+.cabecalho__pesquisa::placeholder {
+	color: transparent;
+}

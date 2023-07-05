@@ -1,0 +1,13 @@
+a {
+	text-decoration: none;
+	color: #2A7AE4;
+	font-size: 14px;
+	font-family: Raleway;
+	font-weight: 700;
+}
+
+.produtos__link {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
