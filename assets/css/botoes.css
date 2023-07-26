@@ -1,0 +1,26 @@
+.botao {
+	width: 182px;
+	padding: 16px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.login {
+	color: var(--azul);
+	background: none;
+	border: 1px solid var(--azul);
+	cursor: pointer;
+	animation-name: dissolveAnimation;
+	animation-timing-function: ease-out;
+	animation-duration: 300ms;
+}
+
+@keyframes dissolve {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

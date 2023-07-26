@@ -1,0 +1,40 @@
+.cabecalho {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 32px 152px;
+	border: 1px solid red;
+}
+
+.cabecalho__conteudo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+.cabecalho__logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: inline-block;
+	background: linear-gradient(to right, var(--azul) 50%, var(--cinza) 50%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+.cabecalho__pesquisa {
+	border: none;
+	border-radius: 20px;
+	padding: 8px 16px;
+	width: 393px;
+	background: var(--branco-diferente) url(../../img/lupa.svg) no-repeat right 3.4% center;
+}
+
+.cabecalho__pesquisa::placeholder {
+	font-size: 14px;
+	line-height: 16px;
+}
