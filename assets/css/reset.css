@@ -5,3 +5,8 @@
 	color: var(--cinza);
 	font-family: Raleway;
 }
+
+
+html {
+	scroll-behavior: smooth;
+}
